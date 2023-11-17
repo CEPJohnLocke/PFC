@@ -20,7 +20,3 @@ menuMobileAdd.addEventListener("click", (el) => {
 menuMobileRemove.addEventListener("click", (el) => {
     ul.classList.remove("open");
 });
-
-ul.addEventListener("click", (el)=> {
-    ul.classList.remove("open");
-})
